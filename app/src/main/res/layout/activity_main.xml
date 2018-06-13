@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.guessthecelebrity.MainActivity">
+
+   <ImageView
+       android:id="@+id/celeb"
+       android:layout_width="match_parent"
+       android:layout_height="500px"
+       android:layout_marginHorizontal="5dp"/>
+
+   <Button
+       android:tag="0"
+       android:onClick="row"
+       android:id="@+id/btn0"
+       android:text="button0"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+
+   <Button
+       android:tag="1"
+       android:onClick="row"
+       android:id="@+id/btn1"
+       android:text="button1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+   <Button
+       android:tag="2"
+       android:onClick="row"
+       android:id="@+id/btn2"
+       android:text="button2"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+   <Button
+       android:tag="3"
+       android:onClick="row"
+       android:id="@+id/btn3"
+       android:text="button3"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:text="change"
+       android:onClick="change"
+       />
+</LinearLayout>
